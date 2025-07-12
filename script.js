@@ -1,3 +1,6 @@
+const tg = window.Telegram.WebApp;
+tg.ready();
+
 // Бургер меню
 const mobileMenuButton = document.getElementById('mobile-menu-button');
 const mobileMenu = document.getElementById('mobile-menu');
